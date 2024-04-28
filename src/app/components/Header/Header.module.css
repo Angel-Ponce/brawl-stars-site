@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    height: 178px;
+    background-color: #0B61CA;
+    position: relative;
+    background-image: url('/brawl-stars-face.svg');
+    background-repeat: repeat;
+
+    .logo {
+        position: absolute;
+        top: calc(100% - 145.5px);
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .yellow {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        height: 248px;
+        background-color: #FFBE20;
+        opacity: 10%;
+    }
+}
